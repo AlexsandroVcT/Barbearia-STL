@@ -196,7 +196,7 @@ input {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: transparent;
+  background-color: #14505C;
 }
 
 /*=============== NAV ===============*/
@@ -221,7 +221,19 @@ input {
   width: 120px;
   margin-top: 20px;
   margin-left: -41vh;
+  
 }
+
+@media screen and (max-width: 767px) {
+  .logoBarba {
+    width: 30%;
+    margin-left: -10%;
+    
+  }
+  
+}
+
+
 
 .nav__toggle {
   font-size: 1.2rem;
